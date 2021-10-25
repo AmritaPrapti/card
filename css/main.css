@@ -59,3 +59,27 @@ img,svg{
     vertical-align: middle;
     max-height: 9rem;
 }
+
+.text{
+    background: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#rect {
+    animation: slideOver 10s linear infinite;
+  }
+  
+  @keyframes slideOver {
+  
+    0% {
+      transform: translatey(0%);
+    }
+    100% {
+        transform: translatey(100%);
+      }
+   
+   
+  }}
