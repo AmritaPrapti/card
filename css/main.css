@@ -69,7 +69,7 @@ img,svg{
 }
 
 #rect {
-    animation: slideOver 10s linear infinite;
+    animation: slideOver 5s linear infinite;
   }
   
   @keyframes slideOver {
