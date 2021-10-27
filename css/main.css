@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face{
+    font-family: "Recoleta";
+    src: url(../fonts/Latinotype_Recoleta_Regular.otf);
+
+}
 .container{
     max-width: 1440px;
     margin: 0 auto;
@@ -61,11 +66,17 @@ img,svg{
 }
 
 .text{
-    background: burlywood;
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    flex-direction: column;
+}
+
+.logo path{
+    font-family: "Recoleta"; 
+    
 }
 
 #rect {
@@ -82,4 +93,4 @@ img,svg{
       }
    
    
-  }}
+  }
